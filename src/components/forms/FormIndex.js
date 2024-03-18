@@ -1,7 +1,7 @@
 import Dropdown from "./Dropdown";
-import FloatingInput from "./FloatingInput";
 import InlineCheckboxes from "./InlineCheckboxes";
 import ButtonGrid from "./ButtonGrid";
 import CustomButton from "./CustomButton";
+import { FloatingInput, FloatingInputWithButton } from './FloatingInput';
 
-export { Dropdown, FloatingInput, InlineCheckboxes, ButtonGrid, CustomButton };
+export { Dropdown, FloatingInput, InlineCheckboxes, ButtonGrid, CustomButton, FloatingInputWithButton };

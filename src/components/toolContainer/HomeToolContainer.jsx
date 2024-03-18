@@ -4,6 +4,7 @@ import CustomCard from '../home/CustomCard';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import AemIdGenIndex from '../aem-id-gen/AemIdGenIndex';
+import AemIDAssistantIndex from '../aem-id-assistant/aemIDAssistantIndex';
 
 function HomeToolContainer() { 
   const tabs = [
@@ -13,29 +14,29 @@ function HomeToolContainer() {
       content: (
         <>
          
-            <p>Welcome to the home tab! This is where you start.</p>
+            <p>Using the power of React.js I am using this technology to rebuild the existing tools created taking advantage of modular and dynamic libraries. This will future proof the forms making worktime light when IDs are restructured. <br /><br />Select the tabs at the top to dynamically switch bewtween tabs.</p>
             <Row >
               <Col>
                 <CustomCard
                   header="What's New?"
                   title="New React Components"
-                  text="Using React's Library and Bootstrap powerful CSS"
+                  text="Using Reacts Library and Bootstrap powerful CSS framework creating reuseable components."
                 />
               </Col>
               <Col>
                 <CustomCard 
-                  header="Placeholder Nav Inserted"
+                  header="Placeholder Inserted"
                   title="Top Nav"
-                  text="Navigations Links will be populated later in development"
+                  text="Navigations Links will be populated later in development."
                   bg="success"
                 />
               </Col>
               <Col>
                 <CustomCard 
-                  header="Placeholder Tab Container"
+                  header="Placeholder Container"
                   title="Dynamic Tabs"
                   text="The Tools will appear when selecting the dynamic tabs."
-                  bg="light"
+                  bg="dark"
                 />
               </Col>
             </Row>
@@ -47,7 +48,7 @@ function HomeToolContainer() {
     {
       eventKey: 'aemIdAssistant',
       title: 'AEM ID Assistant',
-      content: 'Here\'s where the AEM ID Assistant will go.',
+      content: <AemIDAssistantIndex />,
     },
     {
       eventKey: 'aemIdGenerator',

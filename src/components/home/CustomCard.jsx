@@ -7,7 +7,7 @@ function CustomCard({ header, title, text, bg = "primary" }) {
   return (
     <Card
       bg={bg}
-      style={{ width: '18rem' }}
+      // style={{ width: '18rem' }}
       className="mb-2 custom-card"
     >
       <Card.Header>{header}</Card.Header>
