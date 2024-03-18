@@ -7,9 +7,10 @@ This repository contains a multi-web app tool built using React. It provides var
 See bellow for reference on how to get a React project uploaded as a static page. 
 
 ## URLs
-
+GitHub Pages url:
 https://berodtm.github.io/work-projects-lbg/multi-web-app-tool/
 
+URL for Repo and example for config.JSON
 https://github.com/Berodtm/react-multi-tool.git
 
 ## Getting Started
@@ -91,10 +92,6 @@ git push -u origin main
 git remote add origin https://github.com/Berodtm/react-multi-tool.git
 git branch -M main
 git push -u origin main
-
-
-
-
 
 
 https://berodtm.github.io/work-projects-lbg/multi-web-app-tool/
