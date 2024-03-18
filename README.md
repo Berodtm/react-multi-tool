@@ -1,6 +1,10 @@
 # React Multi-Tool
 
+My first React.js project. I used React Bootstrap and in the process of recreating some of my tools created in regular HTML, CSS and JavaScript. 
+
 This repository contains a multi-web app tool built using React. It provides various functionalities and tools for web development.
+
+See bellow for reference on how to get a React project uploaded as a static page. 
 
 ## URLs
 
