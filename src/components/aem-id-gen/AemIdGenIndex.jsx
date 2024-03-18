@@ -27,7 +27,7 @@ function AemIdGenIndex() {
       <Form>
         <Row>
           <Col>
-            <InlineCheckboxes label="Select Brand" options={brands} onChange={(e) => selectedBrand(e.target.value)} />
+            <InlineCheckboxes label="Select Brand" options={brands} onChange={(e) => setSelectedBrand(e.target.value)} />
           </Col>
         </Row>
         <Row>
